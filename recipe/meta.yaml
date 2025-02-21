@@ -1,5 +1,5 @@
 {% set name = "snowplow-tracker" %}
-{% set version = "1.0.4" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/snowplow_tracker-{{ version }}.tar.gz
-  sha256: 16d8a3c001a7847d91dc081d508324550c314a4cbf5d6106b5ab35f77fa34678
+  sha256: 95d8fdc8bd542fd12a0b9a076852239cbaf0599eda8721deaf5f93f7138fe755
 
 build:
   noarch: python
